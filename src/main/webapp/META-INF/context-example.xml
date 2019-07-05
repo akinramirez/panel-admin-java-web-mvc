@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/paneladmin">
+  <Resource auth="Container" 
+            driverClassName="org.postgresql.Driver"
+            maxActive="10" 
+            maxIdle="10" 
+            maxWait="40000" 
+            name="jdbc/name-db"
+            username="user-db"
+            password="password-db" 
+            type="javax.sql.DataSource" 
+            url="jdbc:postgresql://name-server/name-database">            
+  </Resource>
+</Context>
