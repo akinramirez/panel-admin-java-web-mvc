@@ -182,7 +182,7 @@ public class CategoriaDAOImp implements CategoriaDAO {
           beanCrud.setMESSAGE_SERVER("ok");
           beanCrud.setBEAN_PAGINATION(getPagination(Parameters, conn));
         } else {
-          beanCrud.setMESSAGE_SERVER("No se eliminó, existe una Producto asociado a esta Categoria");
+          beanCrud.setMESSAGE_SERVER("No se eliminó, existe un Producto asociado a esta Categoria");
         }
       }
       pst.close();
