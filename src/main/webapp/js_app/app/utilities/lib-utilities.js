@@ -33,7 +33,7 @@ function viewAlertDelete(entidad) {
     } else {
       swal(
             {
-              title: "MyApp",
+              title: "Panel Admin",
               text: "Operación Cancelada",
               type: "success",
               showCancelButton: false,

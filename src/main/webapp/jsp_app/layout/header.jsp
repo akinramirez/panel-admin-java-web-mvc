@@ -20,10 +20,15 @@
   <!-- Main styles for this application-->  
   <link href="<%out.print(getServletContext().getContextPath());%>/assets/vendors/pace-progress/css/pace.min.css" rel="stylesheet">
   <link href="<%out.print(getServletContext().getContextPath());%>/css_app/view/estilos.css" rel="stylesheet">
-  <link href="<%out.print(getServletContext().getContextPath());%>/css_app/view/sweetalert.css" rel="stylesheet">
+  
   <link href="<%out.print(getServletContext().getContextPath());%>/assets/css/style.css" rel="stylesheet">
-  <!-- Global site tag (gtag.js) - Google Analytics-->
+
+  <link href="<%out.print(getServletContext().getContextPath());%>/css_app/view/sweetalert.css" rel="stylesheet">
+  
+  
+    <!-- Global site tag (gtag.js) - Google Analytics-->
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-118965717-3"></script>
+  
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -44,12 +49,14 @@
     <button class="navbar-toggler sidebar-toggler d-lg-none mr-auto" type="button" data-toggle="sidebar-show">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="inicio">
-      <span class="logo"><b>PA</b></span>
-    </a>
+    
     <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
       <span class="navbar-toggler-icon"></span>
     </button>
+    
+    <a class="navbar-brand logo" href="inicio">
+      <span><b>PA</b></span>
+    </a>
 
     <!-- CERRAR SESSION -->
     <ul class="nav navbar-nav ml-auto">        

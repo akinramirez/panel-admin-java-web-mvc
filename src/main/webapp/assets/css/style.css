@@ -12208,9 +12208,9 @@ canvas {
   align-items: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 155px;
+  width: 100px;
   height: 55px;
-  padding: 0;
+  padding: 0;  
   margin-right: 0;
   background-color: transparent;
 }
@@ -14488,10 +14488,11 @@ html[dir="rtl"] .aside-menu-show .aside-menu {
     color: #fff;
   }
   .app-header .navbar-brand {
-    /*position: absolute;*/
+    position: absolute;
     top: 0;
     left: 50%;
-    margin-left: -77.5px;
+    margin-left: -107.5px;
+    /*display: none;*/
   }
   .app-body {
     margin-top: 55px;

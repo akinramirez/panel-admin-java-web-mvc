@@ -25,7 +25,7 @@
           <!-- /.row-->
           <div class="row">
 
-            <div class="col-md-4 col-sm-12">
+            <div class="col-md-6 col-sm-12">
               <div class="card">
                 <div class="card-body p-4 d-flex align-items-center">
                   <i class="nav-icon icon-note bg-primary p-3 font-2xl mr-3"><a href="categorias"></i>
@@ -33,6 +33,7 @@
                     <div class="text-value-sm text-primary">Categorias</div>
                     <div class="text-muted text-uppercase font-weight-bold small">Mantenimiento</div>
                   </div>
+                  
                 </div>
               </div>
             </div>

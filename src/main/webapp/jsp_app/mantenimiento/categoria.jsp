@@ -36,7 +36,7 @@
 
                       <div class="row mt-1">
                         <div class="form-group col-sm-9 col-12">
-                          <input type="text" class="form-control" id="txtNombreCategoria" name="txtNombreCategoria" placeholder="BUSCAR">
+                          <input type="text" class="form-control" id="txtNombreCategoria" name="txtNombreCategoria" placeholder="BUSCAR" autocomplete="off">
                         </div>
                         <div class="col-sm-3 col-12">
                           <button type="submit" id="btnBuscarCategoria" class="btn btn-primary mr-3"><i class="fa fa-search"></i> Buscar</button>
@@ -112,7 +112,7 @@
           <div class="col-12">
             <div class="form-group">
               <label for="txtNombreCategoriaER">NOMBRE</label>
-              <input type="text" id="txtNombreCategoriaER" name="txtNombreCategoriaER" class="form-control form-control-sm" placeholder="">
+              <input type="text" id="txtNombreCategoriaER" name="txtNombreCategoriaER" class="form-control form-control-sm" placeholder="" autocomplete="off">
               <div class="error-validation" id="validarNombreCategoriaER">Ingrese Categoria</div>
             </div>
           </div>
