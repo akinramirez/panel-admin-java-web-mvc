@@ -161,14 +161,13 @@ public class CategoriaDAOImp implements CategoriaDAO {
     return beanCrud;
   }
 
-  
+  @Override
   public BEAN_CRUD delete(Integer id, HashMap<String, Object> Parameters) throws SQLException {
     BEAN_CRUD beanCrud = new BEAN_CRUD();
     PreparedStatement pst;
     ResultSet rs;
 
-    try (Connection conn = this.pool.getConnection();
-            SQLCloseable finish = conn::rollback;) {
+    try (Connection conn = this.pool.getConnection(); SQLCloseable finish = conn::rollback;) {
       conn.setAutoCommit(false);
       pst = conn.prepareStatement("SELECT COUNT(IDCATEGORIA) AS COUNT FROM PRODUCTO WHERE IDCATEGORIA = ?");
       pst.setInt(1, id);

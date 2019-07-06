@@ -100,9 +100,7 @@ function listarCategoria(BEAN_PAGINATION) {
       fila += ">";
       fila += "<td class='align-middle'>" + value.idcategoria + "</td>";
       fila += "<td class='align-middle'>" + value.nombre + "</td>";
-      fila += "<td class='text-center align-middle'>\n\
-              <button class='btn btn-warning btn-xs editar-Categoria'><i class='fa fa-edit'></i></button>\n\
-              <button class='btn btn-danger btn-xs eliminar-Categoria'><i class='fa fa-trash'></i></button></td>";
+      fila += "<td class='text-center align-middle'><button class='btn btn-warning btn-xs editar-Categoria'><i class='fa fa-edit'></i></button><button class='btn btn-danger btn-xs eliminar-Categoria'><i class='fa fa-trash'></i></button></td>";
       fila += "</tr>";
       $('#tbodyCategoria').append(fila);
     });
@@ -140,7 +138,7 @@ function addEventosCategoria() {
   //Eliminar
   $('.eliminar-Categoria').each(function () {
     $(this).click(function () {
-      $('#txtIdCategoriaER').val($(this.parentElement.parentElement).attr('idcategoria'));
+      $('#txtIdCategoriaER').val($(this.parentElement.parentElement).attr('idcategoria'));      
       viewAlertDelete("Categoria");
       document.getElementsByTagName("body")[0].style.paddingRight = "0";
     });
